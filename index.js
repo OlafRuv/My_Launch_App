@@ -1,4 +1,4 @@
-const MissionCommander = require('./app/missionCommander')
+const MissionCommander = require('./app/missionCommander');
 
-const carlo = MissionCommander("Carlo")
+const carlo = new MissionCommander("Carlo")
 console.log(carlo.name)
